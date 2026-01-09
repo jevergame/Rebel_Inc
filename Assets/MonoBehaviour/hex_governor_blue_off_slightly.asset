@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 497389848, guid: 1a6c829c90814807dba1d9501c1e6a37, type: 3}
+  m_Name: hex_governor_blue_off_slightly
+  m_EditorClassIdentifier:
+  _lastTimeModified: 636875585345682150
+  _documentAsset: {fileID: 11400000, guid: 0196a24ab5a8b4746b4c201d14815e21, type: 2}
+  _sharedMesh: {fileID: 4300000, guid: 08131b922fd0c7a458b30efe02c37123, type: 2}
+  _antialiasing: 1
+  _generateCollider: 0
+  _keepSVGFile: 0
+  _ignoreSVGCanvas: 1
+  _colliderShape: []
+  _format: 1
+  _useGradients: 1
+  _meshCompression: 0
+  _optimizeMesh: 1
+  _generateNormals: 0
+  _generateTangents: 0
+  _scale: 0.01
+  _vpm: 1000
+  _depthOffset: 0.01
+  _compressDepth: 1
+  _pivotPoint: {x: 0.5, y: 0.5}
+  _customPivotPoint: 0
+  _border: {x: 0, y: 0, z: 0, w: 0}
+  _sliceMesh: 0
+  _sharedGradients:
+  - colorKeys:
+    - time: 1
+      color:
+        serializedVersion: 2
+        rgba: 4294967295
+    - time: 0
+      color:
+        serializedVersion: 2
+        rgba: 4294967295
+    alphaKeys:
+    - time: 1
+      alpha: 1
+    - time: 0
+      alpha: 1
+    index: 0
+  - colorKeys:
+    - time: 1
+      color:
+        serializedVersion: 2
+        rgba: 4289242683
+    - time: 0.8911
+      color:
+        serializedVersion: 2
+        rgba: 4288782151
+    - time: 0.7488
+      color:
+        serializedVersion: 2
+        rgba: 4287004744
+    - time: 0.5838
+      color:
+        serializedVersion: 2
+        rgba: 4285490760
+    - time: 0.3773
+      color:
+        serializedVersion: 2
+        rgba: 4284832072
+    - time: 0
+      color:
+        serializedVersion: 2
+        rgba: 4284568904
+    alphaKeys:
+    - time: 1
+      alpha: 1
+    - time: 0.8911
+      alpha: 1
+    - time: 0.7488
+      alpha: 1
+    - time: 0.5838
+      alpha: 1
+    - time: 0.3773
+      alpha: 1
+    - time: 0
+      alpha: 1
+    index: 1
+  _sharedShaders:
+  - SVG Importer/GradientColor/GradientColorAlphaBlendedAntialiased
+  _canvasRectangle:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 14.061
+    height: 12.233
+  _useLayers: 0
+  _layers: []

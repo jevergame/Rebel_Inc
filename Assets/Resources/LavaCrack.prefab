@@ -1,0 +1,586 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1267227727497850
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4140706175688890}
+  - component: {fileID: 114745844702206497}
+  - component: {fileID: 23279050806256983}
+  - component: {fileID: 33855148754488917}
+  - component: {fileID: 95342218245823665}
+  - component: {fileID: 114607792836881258}
+  m_Layer: 0
+  m_Name: LavaCrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140706175688890
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267227727497850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114745844702206497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267227727497850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1980932440, guid: 13993aeff7af0e09b9a760ae45f43a50, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  borderPaths:
+  - points: 0f0000000e000000160000000000000005000000060000000800000002000000180000000c000000130000000300000009000000070000000400000001000000
+  _sprite: {fileID: 21300000, guid: c64039fef99120d449c3671c2e8bd8d9, type: 2}
+  _points:
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0, y: 1}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 1
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0, y: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 2
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 1, y: 1}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 3
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 1, y: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 4
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.21023405, y: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 5
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.20428401, y: 1}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 6
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.51368505, y: 1}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 7
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.5037683, y: 0.0019833446}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 8
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.73780245, y: 1}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 9
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.76358014, y: 0.00094491243}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: -5.820766E-11, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 10
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.49583498, y: 0.49623168}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 2.9802322E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 11
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.74771917, y: 0.492265}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 12
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 1, y: 0.49424833}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 13
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.23998412, y: 0.49028164}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 1.4901161E-08, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 14
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0, y: 0.4882983}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 15
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0, y: 0.21063071}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 16
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.23800078, y: 0.22451413}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -1.4901161E-08, y: -1.4901161E-08, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 17
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.48790163, y: 0.24236417}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 18
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.7516858, y: 0.24236417}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: -1.4901161E-08, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 19
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 1, y: 0.24038082}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 20
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.50575167, y: 0.7818326}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: -5.9604645E-08, y: -5.9604645E-08, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 21
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.2142007, y: 0.783816}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 22
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0, y: 0.78976595}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 23
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 0.76755255, y: 0.7877826}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 5.9604645E-08, y: 5.9604645E-08, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 24
+  - _countOfOfsset: 1
+    _index: 0
+    spritePosition: {x: 1, y: 0.77786595}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    normal: {x: 0, y: 0, z: 0}
+    name: point
+    offsets:
+    - {x: 0, y: 0, z: 0}
+    colliderOffset: {x: 0, y: 0}
+    id: 25
+  _bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 64, y: 64, z: 0.5}
+  mesh: {fileID: 0}
+  _triangulateWithOffsetPosition: 0
+  mesh_uvs:
+  - {x: 0, y: 1}
+  - {x: 0, y: 0}
+  - {x: 1, y: 1}
+  - {x: 1, y: 0}
+  - {x: 0.21023405, y: 0}
+  - {x: 0.20428401, y: 1}
+  - {x: 0.51368505, y: 1}
+  - {x: 0.5037683, y: 0.0019833446}
+  - {x: 0.73780245, y: 1}
+  - {x: 0.76358014, y: 0.00094491243}
+  - {x: 0.49583498, y: 0.49623168}
+  - {x: 0.74771917, y: 0.492265}
+  - {x: 1, y: 0.49424833}
+  - {x: 0.23998412, y: 0.49028164}
+  - {x: 0, y: 0.4882983}
+  - {x: 0, y: 0.21063071}
+  - {x: 0.23800078, y: 0.22451413}
+  - {x: 0.48790163, y: 0.24236417}
+  - {x: 0.7516858, y: 0.24236417}
+  - {x: 1, y: 0.24038082}
+  - {x: 0.50575167, y: 0.7818326}
+  - {x: 0.2142007, y: 0.783816}
+  - {x: 0, y: 0.78976595}
+  - {x: 0.76755255, y: 0.7877826}
+  - {x: 1, y: 0.77786595}
+  mesh_vertecs:
+  - {x: -64, y: 64, z: 0}
+  - {x: -64, y: -64, z: 0}
+  - {x: 64, y: 64, z: 0}
+  - {x: 64, y: -64, z: 0}
+  - {x: -37.090042, y: -64, z: 0}
+  - {x: -37.851646, y: 64, z: 0}
+  - {x: 1.7516861, y: 64, z: 0}
+  - {x: 0.48234558, y: -63.74613, z: 0}
+  - {x: 30.438713, y: 64, z: 0}
+  - {x: 33.73826, y: -63.87905, z: 0}
+  - {x: -0.5331192, y: -0.48234558, z: 0}
+  - {x: 31.708054, y: -0.9900818, z: 0}
+  - {x: 64, y: -0.7362137, z: 0}
+  - {x: -33.28203, y: -1.2439499, z: 0}
+  - {x: -64, y: -1.497818, z: 0}
+  - {x: -64, y: -37.03927, z: 0}
+  - {x: -33.535904, y: -35.26219, z: 0}
+  - {x: -1.5485916, y: -32.977386, z: 0}
+  - {x: 32.215782, y: -32.977386, z: 0}
+  - {x: 64, y: -33.231255, z: 0}
+  - {x: 0.73620605, y: 36.074562, z: 0}
+  - {x: -36.58231, y: 36.328445, z: 0}
+  - {x: -64, y: 37.090042, z: 0}
+  - {x: 34.246735, y: 36.83618, z: 0}
+  - {x: 64, y: 35.56684, z: 0}
+  mesh_triangles: 04000000010000000f000000070000000400000011000000030000000900000013000000070000001100000009000000100000000f0000000e00000013000000120000000c000000150000000e000000160000000500000016000000000000001800000017000000020000000c00000017000000180000001500000005000000140000000d0000001500000014000000100000000e0000000d000000040000000f000000100000001500000016000000050000001700000014000000060000001700000008000000020000000b0000001400000017000000120000000b0000000c00000009000000120000001300000012000000110000000a00000011000000100000000d0000000d0000000e000000150000000a0000000d000000140000000b0000000a000000140000000c0000000b00000017000000140000000500000006000000110000000d0000000a000000170000000600000008000000090000001100000012000000110000000400000010000000120000000a0000000b000000
+  mesh_normals:
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 1}
+  mesh_colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 1, y: 1}
+  edgeSerializations:
+  - point1Index: 4
+    point2index: 1
+  - point1Index: 0
+    point2index: 5
+  - point1Index: 5
+    point2index: 6
+  - point1Index: 7
+    point2index: 4
+  - point1Index: 6
+    point2index: 8
+  - point1Index: 8
+    point2index: 2
+  - point1Index: 3
+    point2index: 9
+  - point1Index: 9
+    point2index: 7
+  - point1Index: 1
+    point2index: 15
+  - point1Index: 15
+    point2index: 14
+  - point1Index: 12
+    point2index: 19
+  - point1Index: 19
+    point2index: 3
+  - point1Index: 14
+    point2index: 22
+  - point1Index: 22
+    point2index: 0
+  - point1Index: 2
+    point2index: 24
+  - point1Index: 24
+    point2index: 12
+  - point1Index: 5
+    point2index: 21
+  - point1Index: 21
+    point2index: 13
+  - point1Index: 13
+    point2index: 16
+  - point1Index: 16
+    point2index: 4
+  - point1Index: 22
+    point2index: 21
+  - point1Index: 21
+    point2index: 20
+  - point1Index: 20
+    point2index: 23
+  - point1Index: 23
+    point2index: 24
+  - point1Index: 8
+    point2index: 23
+  - point1Index: 23
+    point2index: 11
+  - point1Index: 11
+    point2index: 18
+  - point1Index: 18
+    point2index: 9
+  - point1Index: 19
+    point2index: 18
+  - point1Index: 18
+    point2index: 17
+  - point1Index: 17
+    point2index: 16
+  - point1Index: 16
+    point2index: 15
+  - point1Index: 14
+    point2index: 13
+  - point1Index: 13
+    point2index: 10
+  - point1Index: 10
+    point2index: 11
+  - point1Index: 11
+    point2index: 12
+  - point1Index: 6
+    point2index: 20
+  - point1Index: 20
+    point2index: 10
+  - point1Index: 10
+    point2index: 17
+  - point1Index: 17
+    point2index: 7
+  lastID: 25
+  minimumTimeToUpdate: 0
+  _generateColliderInRunTime: 0
+  _referenceMaterial: {fileID: 0}
+--- !u!23 &23279050806256983
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267227727497850}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 11c9914a87704e949a95400971a69a53, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &33855148754488917
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267227727497850}
+  m_Mesh: {fileID: 0}
+--- !u!95 &95342218245823665
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267227727497850}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c9c9efa5aaa3d2049a6c93db18c02a78, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &114607792836881258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267227727497850}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dfbd7a0f1edaf318db553aa4bfd881e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  animator: {fileID: 95342218245823665}
+  volcanoLava: {fileID: 0}
+  useTriggerInsteadOfStateChange: 0
